@@ -15,7 +15,6 @@ function success() {
 
     removeClass();
 }
-success() // remove
 
 function error() {
     const errorMsg = 'Oops! There was a problem, please try again later.';
@@ -24,7 +23,6 @@ function error() {
 
     removeClass();
 }
-// error() // remove
 
 function removeClass() {
     setTimeout(()=> {
@@ -36,14 +34,14 @@ function ajax(method, url, DATA, success, error) {
     var xhr = new XMLHttpRequest();
     xhr.open(method, url);
     xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        success(xhr.response, xhr.responseType);
-      } else {
-        error(xhr.status, xhr.response, xhr.responseType);
-      }
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+            success(xhr.response, xhr.responseType);
+        } else {
+            error(xhr.status, xhr.response, xhr.responseType);
+        }
     };
     xhr.send(DATA);
-  }
+}
 

@@ -1,4 +1,4 @@
-# [Coding Academy - Base Gallery]
+# [My Portfolio]
 
 A responsive portfolio grid to be used by Coding Academy students
 
