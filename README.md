@@ -1,6 +1,6 @@
-# [Coding Academy - Base Gallery]
+# [Portfolio Gallery]
 
-A responsive portfolio grid to be used by Coding Academy students
+A basic responsive portfolio grid to be used by Coding Academy students
 
 ## Copyright and License
 
