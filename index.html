@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>My Gallery</title>
+
+        <!-- Bootstrap core CSS & AOS -->
+        <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- Custom fonts for this template -->
+        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+        <!-- Custom styles for this template -->
+        <link href="css/ca-gallery.css" rel="stylesheet">
+    </head>
+
+    <body id="page-top">
+        <div class="moveup-btn">
+            <a href="#page-top"><i class="fa fa-angle-double-up"></i></a>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">limor ofri</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#me">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#technologies">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="masthead">
+            <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"></div>
+                <div class="intro-heading"></div>
+                <a class="btn btn-xl js-scroll-trigger" href="#me">Tell Me More</a>
+            </div>
+            </div>
+        </header>
+
+        <!-- About Me -->
+        <section id="me">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading first-section">About Me</h2>
+                        <h3 class="section-subheading text-muted"></h3>
+                    </div>
+                </div>
+                <div class="row bg-light">
+                    <div class="col-sm-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/me.jpg" alt="">
+                        <h4>Limor Ofri</h4>
+                        <p class="text-muted">Front-End Developer</p>
+                        <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/limor-ofri-bb64b4190/" target="blank">
+                            <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/limor.ofri" target="blank">
+                            <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/Limor46741223" target="blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/ofrilim" target="blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="col-sm-8 flex-align-center">
+                        <p class="large text-muted  about-description">A recent bootcamp graduate looking for a front-end web developer position. After many years in the cosmetics industry, I made a career-changing move and learned to code. In my free time I volunteer at the She Codes organization and work on expanding my knowledge of web technologies.</p>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid - rendered from js-->
+        <section id="portfolio" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">A few of my projects:</h3>
+                    </div>
+                </div>
+                <div class="row projs-container"></div>
+            </div>
+        </section>
+
+        <!-- Technologies -->
+        <section id="technologies">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">technologies</h2>
+                    <h3 class="section-subheading text-muted">Web development technologies:</h3>
+                </div>
+            </div>
+            <div>
+                <div class="col-md-12">
+                    <ul class="technologies-icons bg-light">
+                        <li data-aos="fade-down-right" data-aos-delay="100" data-aos-duration="2000"><img src="./img/icons/html5.png"/></li>
+                        <li data-aos="flip-up" data-aos-delay="500" data-aos-duration="2000"><img src="./img/icons/css3.png"/></li>
+                        <li data-aos="flip-down" data-aos-delay="900" data-aos-duration="2000"><img src="./img/icons/Js.png"/></li>
+                        <li data-aos="fade-down" data-aos-delay="1300" data-aos-duration="2000"><img src="./img/icons/sass.png"/></li>
+                        <li data-aos="fade-in" data-aos-delay="1700" data-aos-duration="2000"><img src="./img/icons/JQuery.png"/></li>
+                        <li data-aos="flip-left" data-aos-delay="2100" data-aos-duration="2000"><img src="./img/icons/React.png"/></li>
+                        <li data-aos="fade-down-left" data-aos-delay="100" data-aos-duration="2000"><img src="./img/icons/vue.png"/></li>
+                        <li data-aos="fade-right" data-aos-delay="1000" data-aos-duration="2000"><img src="./img/icons/nodejs1.png"/></li>
+                        <li data-aos="flip-left" data-aos-delay="2100" data-aos-duration="2000"><img src="./img/icons/expressjs.png"/></li>
+                        <li data-aos="fade-in" data-aos-delay="1700" data-aos-duration="2000"><img src="./img/icons/mongodb.png"/></li>
+                        <li data-aos="fade-up" data-aos-delay="1300" data-aos-duration="2000"><img src="./img/icons/socket_io.png"/></li>
+                        <li data-aos="flip-down" data-aos-delay="900" data-aos-duration="2000"><img src="./img/icons/git.png"/></li>
+                        <li data-aos="flip-up" data-aos-delay="500" data-aos-duration="2000"><img src="./img/icons/github.png"/></li>
+                        <li data-aos="fade-left" data-aos-delay="1000" data-aos-duration="2000"><img src="./img/icons/visual-studio-code.png"/></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Contact me -->
+        <section id="contact" class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">contact</h2>
+                        <h3 class="section-subheading text-muted">Want to work together?</h3>
+                    </div>
+                </div>
+
+                <!-- Form Modal -->
+                <div class="form-modal"></div>
+
+            <form id="form" action="https://formspree.io/xbjzywrq" method="POST">
+                <div class="form-group">
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Name:" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" name="email" class="form-control" placeholder="Email:" required>
+                </div>
+                <div class="form-group">
+                  <textarea id="message" name="message" class="form-control" placeholder="Message:" required></textarea>
+                </div>
+                <button class="btn btn-primary form-btn" type="submit">Submit</button>
+              </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-4 flex-align-center">
+                <a href="http://coding-academy.org" target="_blank">
+                    <img src="./img/ca-logo.png" alt="">
+                </a>
+                </div> -->
+                <div class="col-md-12 flex-align-center">
+                    <ul class="list-inline social-buttons flex-align-center">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/limor-ofri-bb64b4190/" target="blank">
+                            <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/limor.ofri" target="blank">
+                            <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/Limor46741223" target="blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/ofrilim" target="blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <small class="credit">Icons in this website by: <a href="https://icons8.com/" target="blank">icons8</a>
+                    | <a href="https://www.iconfinder.com/" target="blank">iconfinder</a>
+                </small>
+            </div>
+            </div>
+        </footer>
+
+        <!-- Portfolio Modals -->
+        <div class="modal-container"></div>
+
+        <!-- AOS script -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/popper/popper.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="js/ca-gallery.js"></script>
+        <script src="js/proj-service.js"></script>
+        <script src="js/form-service.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
