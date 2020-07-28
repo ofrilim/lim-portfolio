@@ -35,19 +35,6 @@ function getProjs() {
 
 
 
-function sum() {
-    const num1 = +prompt("Enter a number")
-    const num2 = +prompt("Enter another one please")
-    return num1 + num2;
-}
-
-console.log(sum())
-
-
-
-
-
-
 
 
 
